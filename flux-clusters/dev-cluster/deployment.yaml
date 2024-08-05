@@ -6,7 +6,7 @@ metadata:
     app: nginx
   namespace: santhosh
 spec:
-  replicas: 3
+  replicas: 10
   selector:
     matchLabels:
       app: nginx
